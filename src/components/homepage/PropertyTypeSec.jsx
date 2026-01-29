@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Home, Building2, Factory, Trees, ArrowRight, CheckCircle2 } from 'lucide-react';
+import Link from 'next/link';
 
 // interface PropertyType {
 //   id: string;
@@ -142,11 +143,12 @@ export default function PropertyTypesSection() {
                   </div>
                 ))}
               </div>
-
-              <button className="w-full mt-20 md:w-auto inline-flex items-center justify-center gap-4 bg-purple-600 text-white px-8 md:px-10 py-3 md:py-4 rounded-full font-bold text-sm md:text-base hover:bg-purple-700 hover:shadow-lg transition-all duration-300">
+                <Link href="/properties">
+              <button className="w-full cursor-pointer mt-20 md:w-auto inline-flex items-center justify-center gap-4 bg-purple-600 text-white px-8 md:px-10 py-3 md:py-4 rounded-full font-bold text-sm md:text-base hover:bg-purple-700 hover:shadow-lg transition-all duration-300">
                 Explore {selected.name} Properties
                 <ArrowRight className="w-4 h-4 md:w-5 md:h-5" />
               </button>
+              </Link>
             </div>
           </div>
         )}
