@@ -85,7 +85,7 @@ export default function HeroSection() {
               and industrial properties across Faridabad.
             </p>
 
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-8 sm:mb-16">
+            <div className="flex flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-8 sm:mb-16">
               <Link href="/properties">
               <button className="bg-[#7c3aed] hover:bg-[#6d28d9] text-white px-4 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all duration-300 flex items-center justify-center sm:justify-start gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 text-sm sm:text-base">
                 Explore Properties
@@ -149,14 +149,18 @@ export default function HeroSection() {
         ))}
       </div>
 
-      <div className="absolute bottom-3 sm:bottom-8 right-3 sm:right-8 flex flex-col xs:flex-row items-end xs:items-center gap-2 xs:gap-3 bg-white/10 backdrop-blur-sm px-3 xs:px-6 py-2 xs:py-3 rounded-full text-xs xs:text-sm">
-        <span className="text-white font-medium">Need Help?</span>
-        <a href="tel:+919560031319" className="text-white font-bold hover:text-[#fbbf24] transition-colors flex items-center gap-1 xs:gap-2">
-          <Phone className="w-3 h-3 xs:w-4 xs:h-4" />
-          <span className="hidden xs:inline">+91 9560031319</span>
-          <span className="xs:hidden">+91 95600</span>
-        </a>
-      </div>
+ <div className="absolute bottom-3 sm:bottom-8 right-3 sm:right-8 flex items-center gap-2 sm:gap-3 bg-white/10 backdrop-blur-sm px-4 sm:px-6 py-2 sm:py-3 rounded-full text-xs sm:text-sm">
+  <span className="text-white font-medium">Need Help?</span>
+
+  <a
+    href="tel:+919560031319"
+    className="text-white font-bold hover:text-[#fbbf24] transition-colors flex items-center gap-2"
+  >
+    <Phone className="w-3 h-3 sm:w-4 sm:h-4" />
+    <span>+91 95600 31319</span>
+  </a>
+</div>
+
     </section>
   );
 }
