@@ -71,7 +71,7 @@ const contactInfo = [
       <div
         className="absolute inset-0 opacity-40"
         style={{
-          backgroundImage: 'url("https://images.pexels.com/photos/3483098/pexels-photo-3483098.jpeg?auto=compress&cs=tinysrgb&w=1600")',
+          backgroundImage: 'url("https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=1920)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           mixBlendMode: 'overlay'
