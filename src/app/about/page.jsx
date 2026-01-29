@@ -75,16 +75,16 @@ export default function AboutPage() {
       <section className="py-12 md:py-20 bg-white">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
-    <div className="text-purple-600 text-xs md:text-sm font-bold mb-2 md:mb-4">
+    <div className="text-purple-600 text-xs md:text-2xl font-bold mb-2 md:mb-4 text-center">
       OUR STORY
     </div>
 
-    <h2 className="text-lg md:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 md:mb-8">
+    <h2 className="text-lg md:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 md:mb-8 text-center">
       Real Estate in Real Sense
     </h2>
 
-    <div className="grid md:grid-cols-2 gap-6 md:gap-12 mb-10">
-      <div className="text-center md:text-center">
+    <div className="grid md:grid-cols-2 gap-6 md:gap-12 mb-10 max-w-4xl mx-auto">
+      <div className="text-center">
         <p className="text-gray-700 text-xs md:text-base leading-relaxed mb-4">
           Nivesh Sarthi was founded with a vision to transform the real estate experience in Faridabad. We believe in transparency, integrity, and putting our clients' needs first.
         </p>
@@ -100,7 +100,7 @@ export default function AboutPage() {
           'Transparent Dealings',
           'End-to-End Support',
         ].map((item, index) => (
-          <div key={index} className="flex gap-3 items-start justify-center md:justify-start">
+          <div key={index} className="flex gap-3 items-start justify-center">
             <div className="text-purple-600 mt-0.5 flex-shrink-0">
               <Check className="w-4 h-4 md:w-5 md:h-5" />
             </div>
@@ -110,9 +110,9 @@ export default function AboutPage() {
       </div>
     </div>
 
-    {/* ✅ LEFT ALIGNED BUTTON */}
-    <div className="flex justify-center md:justify-start">
-      <button className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-bold py-2 px-6 md:py-3 md:px-8 rounded-full text-xs md:text-base transition-all inline-flex items-center gap-2">
+    {/* ✅ CENTER ALIGNED BUTTON */}
+    <div className="flex justify-center">
+      <button className="cursor-pointer bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-bold py-2 px-6 md:py-3 md:px-8 rounded-full text-xs md:text-base transition-all inline-flex items-center gap-2">
         Get in Touch
         <span>→</span>
       </button>
