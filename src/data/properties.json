@@ -1,0 +1,144 @@
+{
+  "properties": [
+    {
+      "id": "1",
+      "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&q=80",
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80"
+      ],
+      "type": "plot",
+      "featured": true,
+      "price": "₹80 Lac",
+      "title": "Residential Plot",
+      "location": "Sector 150, Noida",
+      "area": "200 sq.yds",
+      "beds": 0,
+      "baths": 0,
+      "description": "Beautiful residential plot in prime location with all amenities nearby.",
+      "amenities": ["Gated", "Security", "Parking", "Water Supply"],
+      "contact": {
+        "name": "Rahul Kushwaha",
+        "phone": "+91 9560031319",
+        "email": "info@niveshsarthi.com"
+      }
+    },
+    {
+      "id": "2",
+      "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80"
+      ],
+      "type": "residential",
+      "featured": true,
+      "price": "₹2.5 Cr",
+      "title": "Luxury Villa in Gurgaon",
+      "location": "DLF Phase 5, Gurgaon",
+      "area": "3500 sq.ft",
+      "beds": 4,
+      "baths": 4,
+      "description": "Stunning luxury villa with modern architecture and premium finishes.",
+      "amenities": ["Pool", "Garden", "Gym", "Parking", "Security", "Smart Home"],
+      "contact": {
+        "name": "Rakesh Kushwaha",
+        "phone": "+91 9560031319",
+        "email": "info@niveshsarthi.com"
+      }
+    },
+    {
+      "id": "3",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80",
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80"
+      ],
+      "type": "industrial",
+      "featured": false,
+      "price": "₹3.5 Cr",
+      "title": "Industrial Warehouse",
+      "location": "Manesar, Gurgaon",
+      "area": "10000 sq.ft",
+      "beds": 0,
+      "baths": 0,
+      "description": "Spacious industrial warehouse with modern infrastructure and logistics support.",
+      "amenities": ["Loading Dock", "High Ceiling", "Power Backup", "Security"],
+      "contact": {
+        "name": "Satpal Sorout",
+        "phone": "+91 9560031319",
+        "email": "info@niveshsarthi.com"
+      }
+    },
+    {
+      "id": "4",
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&q=80",
+        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80"
+      ],
+      "type": "residential",
+      "featured": true,
+      "price": "₹95 Lac",
+      "title": "Modern Apartment",
+      "location": "Sector 128, Noida",
+      "area": "1800 sq.ft",
+      "beds": 3,
+      "baths": 2,
+      "description": "Modern and spacious apartment with premium amenities in a secure gated community.",
+      "amenities": ["Gym", "Parking", "Security", "Playground", "Community Center"],
+      "contact": {
+        "name": "Rahul Kushwaha",
+        "phone": "+91 9560031319",
+        "email": "info@niveshsarthi.com"
+      }
+    },
+    {
+      "id": "5",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80",
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&q=80"
+      ],
+      "type": "commercial",
+      "featured": false,
+      "price": "₹1.8 Cr",
+      "title": "Commercial Office Space",
+      "location": "Cyber City, Gurgaon",
+      "area": "2500 sq.ft",
+      "beds": 0,
+      "baths": 0,
+      "description": "Premium commercial office space in business hub with excellent connectivity.",
+      "amenities": ["Conference Room", "Cafeteria", "Parking", "Security", "Internet"],
+      "contact": {
+        "name": "Rakesh Kushwaha",
+        "phone": "+91 9560031319",
+        "email": "info@niveshsarthi.com"
+      }
+    },
+    {
+      "id": "6",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&q=80"
+      ],
+      "type": "residential",
+      "featured": true,
+      "price": "₹1.2 Cr",
+      "title": "Premium 3BHK Flat",
+      "location": "Sector 82, Faridabad",
+      "area": "1650 sq.ft",
+      "beds": 3,
+      "baths": 2,
+      "description": "Premium 3BHK apartment with modern design and excellent finish quality.",
+      "amenities": ["Gym", "Pool", "Parking", "Security", "Lift"],
+      "contact": {
+        "name": "Satpal Sorout",
+        "phone": "+91 9560031319",
+        "email": "info@niveshsarthi.com"
+      }
+    }
+  
+  ]
+}
